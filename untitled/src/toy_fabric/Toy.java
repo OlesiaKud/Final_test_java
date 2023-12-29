@@ -3,18 +3,19 @@ package toy_fabric;
 import java.awt.color.ICC_ColorSpace;
 
 public abstract class Toy{
+//        абстрактный класс Игрушка, и его наследуют конкретные виды игрушке - куклы, машинки, конструкторы, плюшевые мишки
         private int id;
         private String name;
         private int quantity;
         private int rate;
-
+// конструктор
         public Toy(int id, String name, int quantity, int rate) {
                 this.id = id;
                 this.name = name;
                 this.quantity = quantity;
                 this.rate = rate;
         }
-
+//getters and setters
         public int getId() {
                 return id;
         }
@@ -46,7 +47,7 @@ public abstract class Toy{
         public void setRate(int rate) {
                 this.rate = rate;
         }
-
+// переопределила метод toString
         @Override
         public String toString() {
                 return "Игрушка (id: " + id + ", название: " + name + ", количество: "+ quantity + ", частота выпадения"+ rate;

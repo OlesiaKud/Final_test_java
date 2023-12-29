@@ -5,8 +5,9 @@ public class Lego extends Toy{
         super(id, name, quantity, rate);
     }
 
+    // переопределила метод toString
     @Override
     public String toString() {
-        return "Конструктор лего";
+        return "Конструктор лего (id: " + super.getId() + ", название: " + super.getName() + ", количество: " + super.getQuantity() + ", вес в %: " + super.getRate() + "\n";
     }
 }
