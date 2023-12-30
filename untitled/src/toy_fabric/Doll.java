@@ -9,6 +9,6 @@ public class Doll extends Toy{
     // переопределила метод toString
     @Override
     public String toString() {
-       return "Кукла (id: " + super.getId() + ", название: " + super.getName() + ", количество: " + super.getQuantity() + ", вес в %: " + super.getRate() + "\n";
+       return "id: " + super.getId() + ", название: " + super.getName() + ", количество: " + super.getQuantity() + ", вес в %: " + super.getRate() + "\n";
     }
 }

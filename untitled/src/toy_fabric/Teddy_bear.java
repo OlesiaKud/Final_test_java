@@ -7,6 +7,6 @@ public class Teddy_bear extends Toy{
     // переопределила метод toString
     @Override
     public String toString() {
-        return "Плюшевый мишка (id: " + super.getId() + ", название: " + super.getName() + ", количество: " + super.getQuantity() + ", вес в %: " + super.getRate() + "\n";
+        return "id: " + super.getId() + ", название: " + super.getName() + ", количество: " + super.getQuantity() + ", вес в %: " + super.getRate() + "\n";
     }
 }

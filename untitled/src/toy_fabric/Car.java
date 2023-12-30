@@ -8,6 +8,6 @@ public class Car extends Toy {
     // переопределила метод toString
     @Override
     public String toString() {
-        return "Машинка (id: " + super.getId() + ", название: " + super.getName() + ", количество: " + super.getQuantity() + ", вес в %: " + super.getRate() + "\n";
+        return "id: " + super.getId() + ", название: " + super.getName() + ", количество: " + super.getQuantity() + ", вес в %: " + super.getRate() + "\n";
     }
 }
